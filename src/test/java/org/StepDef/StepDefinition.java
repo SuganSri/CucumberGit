@@ -35,6 +35,16 @@ public class StepDefinition {
 		driver.findElement(By.name("login")).click();
 
 	}
+	@And("User clicks the login button")
+	public void user_clicks_the_login_button11() {
+		driver.findElement(By.name("password")).click();
+
+	}
+	@And("User clicks the login button")
+	public void user_clicks_the_login_button1() {
+		driver.findElement(By.name("username")).click();
+
+	}
 
 	@Then("User verifies the application moved to home page")
 	public void user_verifies_the_application_moved_to_home_page() {
@@ -44,7 +54,7 @@ public class StepDefinition {
 		System.out.println("validated");
 
 	}
-
+	
 
 
 }
